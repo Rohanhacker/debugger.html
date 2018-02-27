@@ -21239,7 +21239,8 @@
       "../../babel-loader/lib/index.js?ignore=src/lib!../../../src/utils/pause/index.js": 2419,
       "../../babel-loader/lib/index.js?ignore=src/lib!../../../src/utils/pause/why.js": 2420,
       "../../babel-loader/lib/index.js?ignore=src/lib!../../../src/utils/pause/stepping.js": 2421,
-      "../../babel-loader/lib/index.js?ignore=src/lib!../../../src/workers/parser/pauseLocation.js": 2422
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../src/workers/parser/pauseLocation.js": 2422,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../src/selectors/index.js": 2423
     },
     "usedIds": {
       "0": 0,
@@ -23664,7 +23665,8 @@
       "2419": 2419,
       "2420": 2420,
       "2421": 2421,
-      "2422": 2422
+      "2422": 2422,
+      "2423": 2423
     }
   },
   "chunks": {
