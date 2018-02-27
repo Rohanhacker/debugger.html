@@ -25,15 +25,17 @@ function assertEditorBreakpoint(dbg, line, shouldExist) {
 }
 
 async function assertConditionalBreakpointIsFocused(dbg) {
-  const conditionalBreakpointInput = findElementWithSelector(
+  const input = findElementWithSelector(
     dbg,
     ".conditional-breakpoint-panel input"
   );
 
-  const breakpointFocused = await waitFor(() => dbg.win.document.activeElement == conditionalBreakpointInput &&
-    dbg.win.document.hasFocus());
+  const doc = dbg.win.document;
+  const isFocused = await waitFor(
+    () => doc.activeElement == input && doc.hasFocus()
+  );
 
-  ok(breakpointFocused, "Conditional Breakpoint Input is focused.");
+  ok(isFocused, "Conditional Breakpoint Input is focused.");
 }
 
 async function setConditionalBreakpoint(dbg, index, condition) {
