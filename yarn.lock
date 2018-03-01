@@ -3206,9 +3206,9 @@ devtools-contextmenu@^0.0.7:
   dependencies:
     devtools-modules "^0.0.32"
 
-devtools-launchpad@^0.0.116:
-  version "0.0.116"
-  resolved "https://registry.yarnpkg.com/devtools-launchpad/-/devtools-launchpad-0.0.116.tgz#86918751b2cabf5399e0ef03f0ba98a28f6f3fcc"
+devtools-launchpad@0.0.117:
+  version "0.0.117"
+  resolved "https://registry.yarnpkg.com/devtools-launchpad/-/devtools-launchpad-0.0.117.tgz#048ea0762225d9f2e68d8e3d8bd56b950e86b88f"
   dependencies:
     amd-loader "0.0.8"
     autoprefixer "^7.1.2"
@@ -3259,6 +3259,8 @@ devtools-launchpad@^0.0.116:
     properties-parser "^0.3.1"
     ps-node "^0.1.4"
     raw-loader "^0.5.1"
+    react "^16.2.0"
+    react-dom "^16.2.0"
     react-dom-factories "^1.0.2"
     react-immutable-proptypes "^2.1.0"
     react-redux "^5.0.6"
@@ -9217,6 +9219,15 @@ react-dom@^15.6.2:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
+react-dom@^16.2.0:
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
+
 react-fuzzy@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/react-fuzzy/-/react-fuzzy-0.5.1.tgz#295c2a4079ad39402e05605d9d7accd2db8527b6"
@@ -9350,6 +9361,15 @@ react@^15.6.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "^15.5.10"
+
+react@^16.2.0:
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
 read-all-stream@^3.0.0:
   version "3.1.0"
