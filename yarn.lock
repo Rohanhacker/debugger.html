@@ -3274,9 +3274,9 @@ devtools-launchpad@^0.0.116:
     webpack-hot-middleware "^2.18.2"
     ws "^1.0.1"
 
-devtools-license-check@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/devtools-license-check/-/devtools-license-check-0.6.0.tgz#93ecf7acc0665bb65ba22fce6f094249838811be"
+devtools-license-check@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/devtools-license-check/-/devtools-license-check-0.7.0.tgz#62e5fd224dcb5c6cf10f1de56ea55f341817bd35"
   dependencies:
     license-checker "^9.0.3"
 
